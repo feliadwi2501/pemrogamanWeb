@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>SIMPUS-Mini | Tambah Buku</title>
+</head>
+<body>
+    <header>
+        <h1>SIMPUS-Mini</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Beranda</a></li>
+                <li><a href="list.html">Daftar Buku</a></li>
+                <li><a href="tambah.html">Tambah Buku</a></li>
+                <li><a href="../anggota/list.html">Daftar Anggota</a></li>
+                <li><a href="../anggota/tambah.html">Tambah Anggota</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <p>
+                <label for="judul">Judul</label><br>
+                <input type="text" id="judul" name="judul" required>
+            </p>
+            <p>
+                <label for="pengarang">pengarang</label><br>
+                <input type="text" id="penarang" name="pengarang" required>
+            </p>
+            <p>
+                <label for="tahun">tahun</label><br>
+                <input type="number" id="tahun" name="tahun" min="1900" max="2026" required>
+            </p>
+            <p>
+                <label for="isbn">ISBN</label><br>
+                <input type="text" id="isbn" name="isbn" required>
+            </p>
+            <p>
+                <label for="stok">Stok</label><br>
+                <input type="number" id="stok" name="stok" min="0" required>
+            </p>
+            <p>
+                <label for="kategori">kategori</label><br>
+                <select id="kategori" name="kategori">
+                    <option value="fiksi">fiksi</option>
+                    <option value="non-fiksi">non-fiksi</option>
+                    <option value="Referensi">Referensi</option>
+                </select>
+            </p>
+            <p>
+                <button type="submit">Simpan</button>
+            </p>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SIMPUS-Mini &mdash; Jobsheet1</p>
+    </footer>
+</body>
+</html>
