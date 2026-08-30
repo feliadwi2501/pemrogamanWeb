@@ -1,10 +1,85 @@
-<!DOCTYPE html>     
-<html lang="id">
-<head>
+<!DOCTYPE html> <!--penanda-->
+<html lang="id"> <!--sebagai wadah dan menggunakan bahasa indo-->
+
+<head> <!--info tentang halaman-->
     <meta charset="UTF-8">
     <title> SIMPUS-Mini | Beranda</title>
 </head>
+
 <body>
-    ...
+    <header>
+        <h1>SIMPUS-Mini</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="buku/list.hmtl">Daftar Buku</a></li>
+                <li><a href="buku/tambah.html">Tambah Buku</a></li>
+                <li><a href="anggota/list.html">Daftar Anggota</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2> Selamat Datang di Sistem Perpustakaan Mini</h2>
+            <p>Aplikasi sederhana untuk mengelola data buku dan anggota perpustakaan.</p>
+        </section>
+
+        <section>
+            <h2>Ringkasan</h2>
+            <article>
+                <h3>Total Buku</h3>
+                <p>12</p>
+            </article>
+
+            <article>
+                <h3>Total Anggota</h3>
+                <p>8</p>
+            </article>
+
+            <artikel>
+                <h3>Sedang Dipinjam</h3>
+                <p>3</p>
+            </artikel>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SIMPUS-Mini &mdash; Jobsheet1</p>
+    </footer>
+    <form>
+        <p>
+            <label for="Laskar pelangi">Judul</label><br>
+            <input type="text" id="judul" name="judul" required>
+        </p>
+        <p>
+            <label for="pengarang">pengarang</label><br>
+            <input type="text" id="penarang" name="pengarang" required>
+        </p>
+        <p>
+            <label for="tahun">tahun</label><br>
+            <input type="number" id="tahun" name="tahun" min="1900" max="2026" required>
+        </p>
+        <p>
+            <label for="isbn">ISBN</label><br>
+            <input type="text" id="isbn" name="isbn" required>
+        </p>
+        <p>
+            <label for="stok">Stok</label><br>
+            <input type="number" id="stok" name="stok" min="0" required>
+        </p>
+        <p>
+            <label for="kategori">kategori</label><br>
+            <select id="kategori" name="kategori">
+                <option value="fiksi">fiksi</option>
+                <option value="non-fiksi">non-fiksi</option>
+                <option value="Referensi">Referensi</option>
+            </select>
+        </p>
+        <p>
+            <button type="submit">Simpan</button>
+        </p>
+    </form>
 </body>
+
 </html>
