@@ -110,10 +110,7 @@ Halaman yang sudah ada (Beranda, Daftar/Tambah Buku, Daftar/Tambah Anggota — J
 
 ### 1. Wireframe: Registrasi Anggota Baru
 ``` text
-+-------------------------------------------------------------+
-|                         SIMPUS-Mini                         |
-+-------------------------------------------------------------+
-|  Beranda| Buku | Anggota |                        [ Login ] |
+
 +-------------------------------------------------------------+
 |                                                             |
 |                   [ Registrasi Anggota Baru ]               |
